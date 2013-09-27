@@ -1,0 +1,80 @@
+/* 
+    Document   : styles
+    Created on : Sep 18, 2013, 2:59:52 PM
+    Author     : serdnah2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a{
+    cursor: pointer;
+}
+
+.js-item-img{
+    width: 180px;
+    margin: 0 auto;
+}
+
+#js-container{
+    margin-bottom: 16px;
+}
+
+.row + .row{
+    margin-top: 16px;
+}
+
+.js-container-form{
+    margin-bottom: 50px;
+}
+
+
+.js-item:hover{
+    background-color: #f5f5f5;
+}
+
+.js-item + .js-item, #js-alert-info{
+    margin-top: 40px;
+}
+
+.js-item a{
+    color: #08c;
+    text-decoration: none;
+}
+
+.js-item div{
+    word-wrap: break-word;
+}
+
+.linkGreen{
+    color: green;
+}
+
+#js-items-found{
+    margin-top: 50px;
+}
+
+#js-current-page{
+    margin-top: 30px;
+}
+
+.js-display-none{
+    display: none;
+}
+
+.js-add-input + .js-add-input{
+    margin-top: 20px;
+}
+
+#js-loading{
+    display: none;
+}
+
+#js-notification{
+    position: fixed;
+    right: 0;
+    z-index: 2;
+}

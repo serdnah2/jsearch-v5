@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <title>jsearch | A&ntilde;adir</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- Bootstrap theme -->
+        <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="css/theme.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="../../assets/js/html5shiv.js"></script>
+          <script src="../../assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="js-menu" class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Jserach</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li id="home"><a>Item1</a></li>
+                        <li id="profile"><a>Item2</a></li>
+                        <li id="close"><a>Item3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="js-notification"></div>
+        <div id="js-container" class="container theme-showcase">
+            <div class="row js-container-form">
+                <div id="js-alert-info" class="col-xs-12 col-md-8 col-md-offset-2">
+                    <form id="addForm">
+                        <div class="js-add-input">
+                            <label for="titulo">T&iacute;tulo</label>
+                            <div class="input-group">
+                                <input type="text" name="titulo" class="form-control" placeholder="T&iacute;tulo" id="titulo">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-certificate"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="js-add-input">
+                            <label for="link">link</label>
+                            <div class="input-group">
+                                <input type="text" name="link" class="form-control" placeholder="link" id="link">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-certificate"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="js-add-input">
+                            <label for="descripcion">Descripci&oacute;n</label>
+                            <div class="input-group">
+                                <input type="text" name="desc" class="form-control" placeholder="Descripci&oacute;n" id="descripcion">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-certificate"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="js-add-input">
+                            <label for="claves">Palabras claves</label>
+                            <div class="input-group">
+                                <input type="text" name="claves" class="form-control" placeholder="Palabras claves" id="claves">
+                                <span class="input-group-addon">
+                                    <span class="glyphicon glyphicon-certificate"></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="js-add-input">
+                            <button type="submit" class="btn btn-default js-additem" data-loading-text="Cargando...">
+                                <span class="glyphicon glyphicon-floppy-saved"></span> Añadir
+                            </button>
+                            <a class="btn btn-danger" href="index.html">
+                                <span class="glyphicon glyphicon-arrow-left"></span> Cancelar
+                            </a>
+                        </div>
+                    </form>
+                    <hr>
+                    <button type="button" class="btn btn-default js-index" id="index" data-loading-text="Cargando...">
+                        <span class="glyphicon glyphicon-plus"></span> Indexar
+                    </button>
+                    <!--<button type="button" data-loading-text="Loading..." class="btn btn-primary nav-tabs">
+                        Loading state
+                    </button>-->
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer id="js-footer" class="container">
+            <p class="pull-right"><a>Back to top</a></p>
+            <p>&copy; 2013 serdnah2 &middot; <a href="mailto:serdnah2@gmaail.com">serdnah2@gmail.com</a>
+        </footer>
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/button.js"></script>
+        <script src="js/add.js"></script>
+    </body>
+</html>
