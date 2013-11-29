@@ -18,11 +18,11 @@
             };
             this.parameters = this.getParameters();
             this.init = function() {
+                $('#loading').show();
                 $('#js-search').submit(function(event) {
                     var validate = $('#js-input').val();
                     if (validate === "" || self.parameters.js === validate) {
                         event.preventDefault();
-                        return false;
                     }
                 });
 
@@ -82,6 +82,7 @@
                             } else {
                                 $('#js-alert-info .alert-info').html('No se ha encontrado coincidencias');
                                 $('#js-alert-info').removeClass('js-display-none');
+                                $('#loading').hide();
                             }
                         }
                     }
@@ -140,11 +141,12 @@
                     }
 
                     $('#js-current-page').html('P&aacute;gina ' + page + ' de ' + total);
-
                     $('.pagination').append($.pagination);
+                    $('#loading').hide();
                 } else {
                     $('#js-alert-info .alert-info').html('Esta p&aacute;gina no existe');
                     $('#js-alert-info').removeClass('js-display-none');
+                    $('#loading').hide();
                 }
             };
             this.pagination = function(from, to) {
