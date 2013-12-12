@@ -4,7 +4,7 @@
         var Jsearch = function() {
             self = this;
             this.version = 5;
-            this.automatically = true;
+            this.automatically = false;
             this.items = [];
             this.itemsFound = [];
             this.see = 10;
