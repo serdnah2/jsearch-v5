@@ -4,7 +4,7 @@
         var Jsearch = function() {
             self = this;
             this.version = 5;
-            this.automatically = false;
+            this.automatically = true;
             this.items = [];
             this.itemsFound = [];
             this.see = 10;
@@ -69,11 +69,12 @@
                     var words = matchString.split("+");
                     for (var i in words) {
                         for (var k in self.items) {
-                            if (self.items[k].title.toLowerCase().match(words[i].toLowerCase()) ||
-                                    self.items[k].description.toLowerCase().match(words[i].toLowerCase()) ||
-                                    self.items[k].claves.toLowerCase().match(words[i].toLowerCase())) {
-                                self.itemsFound.push(self.items[k]);
-                            }
+                            if (self.items[k].title !== null && self.items[k].description !== null && self.items[k].description !== null && self.items[k].claves !== null)
+                                if (self.items[k].title.toLowerCase().match(words[i].toLowerCase()) ||
+                                        self.items[k].description.toLowerCase().match(words[i].toLowerCase()) ||
+                                        self.items[k].claves.toLowerCase().match(words[i].toLowerCase())) {
+                                    self.itemsFound.push(self.items[k]);
+                                }
                         }
 
                         if (i == (words.length - 1)) {
