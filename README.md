@@ -26,7 +26,7 @@ Nota:
 - Cada vez que añades un nuevo archivo debes que indexar de nuevo el buscador
 
 Para verlo funcionando puedes acceder a este enlace:
-[Jsearch](http://www.cornersopensource.com/jsearch_)
+[Jsearch](http://www.cornersopensource.com/jsearch_v5)
 
 Muchas gracias por el apoyo brindado!
 
