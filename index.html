@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jsearch-v5 by serdnah2</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jsearch-v5</h1>
+        <p>Jsearch have new version (5). Have new structure and functionality</p>
+
+        <p class="view"><a href="https://github.com/serdnah2/jsearch-v5">View the Project on GitHub <small>serdnah2/jsearch-v5</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/serdnah2/jsearch-v5/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/serdnah2/jsearch-v5/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/serdnah2/jsearch-v5">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="jsearch-5" class="anchor" href="#jsearch-5"><span class="octicon octicon-link"></span></a>jsearch 5</h1>
+
+<p>Buscador interno web creado para las personas que se les hace complicado programar o que tienen conocimientos mínimos de software, sin excluir a los desarrolladores web que pueden contribuir con mejoras al código!</p>
+
+<p>Este buscador tiene la opción de buscar por los archivos que existan en un directorio específico, (directorio que puedes configurar)
+o buscar por palabras que añadimos en la página "add.html"</p>
+
+<p>Cómo configurar ésta opción?
+En el archivo "script.js" que está ubicado en el directorio "js" debes editarlo y hacer un pequeño cambio.
+Debes que cambiar el valor de el atributo "automatically" a "true" para que busque dentro del directorio o "false" para que busque por las palabras que hemos añadido</p>
+
+<pre><code>this.automatically = true ó false
+</code></pre>
+
+<p>Para editar la carpeta de búsqueda debemos ir al directorio "php/index.php" y modificar la variable $folderToFind al nombre de la carpeta que necesites</p>
+
+<pre><code>$folderToFind = "files/";
+</code></pre>
+
+<p>Nota:
+Debes escribir el nombre desde la raíz</p>
+
+<p>Cuando configures el atributo en "true" debes indexar los archivos que existan en el directorio establecido en el archivo "php/index.php" en la variable $folderToFind. Para hacerlo debes ir al archivo "add.html" y dar click en el botón "Indexar archivos"</p>
+
+<p>Nota:</p>
+
+<ul>
+<li>Si el buscador no agrega ninguún dato, por favor cambia los permisos a los archivos "database.js" y "databasefolder.js"</li>
+<li>Cada vez que añades un nuevo archivo debes que indexar de nuevo el buscador</li>
+</ul><p>Para verlo funcionando puedes acceder a este enlace:
+<a href="http://www.cornersopensource.com/jsearch_v5">Jsearch</a></p>
+
+<p>Muchas gracias por el apoyo brindado!</p>
+
+<p>serdnah2</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/serdnah2">serdnah2</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
