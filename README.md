@@ -7,7 +7,7 @@ Este buscador tiene la opción de buscar por los archivos que existan en un dire
 o buscar por palabras que añadimos en la página "add.html"
 
 Cómo configurar ésta opción?
-En el archivo "script.js" que está ubicado en el directorio "js" debes editarlo y hacer un pequeño cambio.
+En el archivo "search.js" que está ubicado en el directorio "js" debes editarlo y hacer un pequeño cambio.
 Debes que cambiar el valor de el atributo "automatically" a "true" para que busque dentro del directorio o "false" para que busque por las palabras que hemos añadido
 
     this.automatically = true ó false
