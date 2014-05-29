@@ -12,7 +12,7 @@ Debes que cambiar el valor de el atributo "automatically" a "true" para que busq
 
     this.automatically = true ó false
     
-Para editar la carpeta de búsqueda debemos ir al directorio "php/index.php" y modificar la variable $folderToFind al nombre de la carpeta que necesites
+Para editar la carpeta de búsqueda debemos ir al directorio "php/toIndex.php" y modificar la variable $folderToFind al nombre de la carpeta que necesites
 
     $folderToFind = "files/";
     
